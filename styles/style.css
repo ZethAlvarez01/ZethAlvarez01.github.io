@@ -47,8 +47,8 @@ body {
 }
 
 #card_1{
-    width: 258px;
-    height: 300px;
+    width: 358px;
+    height: 400px;
     background-image: url("../img/corazon.png");
     transform: rotate(9deg);
     background-size: contain;
