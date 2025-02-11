@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+h1{
+    font-family: "Love Ya Like A Sister", serif;
+}
+
+body {
+
+    background: rgb(255,192,203);
+    background: linear-gradient(0deg, rgba(255,192,203,1) 0%, rgba(255,192,203,1) 34%, rgba(255,255,255,1) 100%);
+  }
+  
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30px !important;
+    height: 100%;
+    font-family: 'Zeyada';
+    font-size: 20px;
+}
+
+.text_video{
+    margin-top: 8px !important;
+    height: 100%;
+    font-family: 'Zeyada' !important;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text_video_2{
+    margin-top: 8px !important;
+    height: 100%;
+    font-family: 'Zeyada' !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+#card_1{
+    width: 258px;
+    height: 300px;
+    background-image: url("../img/corazon.png");
+    transform: rotate(9deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 30px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#card_2{
+    width: 245px;
+    height: 321px;
+    background-image: url("../img/casa.jpg");
+    transform: rotate(-10deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 30px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+video{
+    width: 221px;
+    height: 390px;
+}
+
+.video_7{
+    width: 200px;
+    height: 300px;
+}
+
+#card_3{
+    width: 243px;
+    height: 440px;
+    /* background-image: url("../img/queso.mp4"); */
+    transform: rotate(20deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 50px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#card_4{
+    width: 230px;
+    height: 321px;
+    background-image: url("../img/fami.jpeg");
+    transform: rotate(-25deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 30px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#card_5{
+    width: 243px;
+    height: 440px;
+
+    transform: rotate(-30deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 50px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#card_6{
+    width: 180px;
+    height: 321px;
+    background-image: url("../img/lentes.jpeg");
+    transform: rotate(40deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 30px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+#card_7{
+    width: 221px !important;
+    height: 359px;
+    transform: rotate(-30deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 50px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+
+#card_8{
+    width: 170px;
+    height: 290px;
+    background-image: url("/img/pelir.jpeg");
+    transform: rotate(-10deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 10px solid #f2f2f2;
+    border-bottom: 30px solid #f2f2f2;
+    box-shadow: 0 0 4px #0007;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
