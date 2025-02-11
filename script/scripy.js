@@ -18,6 +18,8 @@ const card_6 = document.getElementById('card_6')
 const card_7 = document.getElementById('card_7')
 const card_8 = document.getElementById('card_8')
 
+card_1.addEventListener('touchstart', touchStart);
+
 card_1.addEventListener('mousedown', mouseDown_1)
 card_2.addEventListener('mousedown', mouseDown_2)
 card_3.addEventListener('mousedown', mouseDown_3)
@@ -220,7 +222,29 @@ function mouseUp_8(e){
 
 
 
+function touchStart(e){
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
 
+    document.addEventListener('touchmove', touchMove);
+    document.addEventListener('touchend', touchEnd);
+}
+
+function touchMove(e){
+    newX = startX - e.touches[0].clientX;
+    newY = startY - e.touches[0].clientY;
+
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+
+    card.style.top = (card.offsetTop - newY) + 'px';
+    card.style.left = (card.offsetLeft - newX) + 'px';
+}
+
+function touchEnd(){
+    document.removeEventListener('touchmove', touchMove);
+    document.removeEventListener('touchend', touchEnd);
+};
 
 
 
