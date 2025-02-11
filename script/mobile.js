@@ -8,14 +8,14 @@ let newX_6_1 = 0, newY_6_1 = 0, startX_6_1  = 0, startY_6_1  = 0;
 let newX_7_1 = 0, newY_7_1 = 0, startX_7_1  = 0, startY_7_1  = 0;
 let newX_8_1 = 0, newY_8_1 = 0, startX_8_1  = 0, startY_8_1  = 0;
 
-const card_1_1 = document.getElementById('card_1_1');
-const card_2_1 = document.getElementById('card_2_1');
-const card_3_1 = document.getElementById('card_3_1');
-const card_4_1 = document.getElementById('card_4_1');
-const card_5_1 = document.getElementById('card_5_1');
-const card_6_1 = document.getElementById('card_6_1');
-const card_7_1 = document.getElementById('card_7_1');
-const card_8_1 = document.getElementById('card_8_1');
+const card_1_1 = document.getElementById('card_1');
+const card_2_1 = document.getElementById('card_2');
+const card_3_1 = document.getElementById('card_3');
+const card_4_1 = document.getElementById('card_4');
+const card_5_1 = document.getElementById('card_5');
+const card_6_1 = document.getElementById('card_6');
+const card_7_1 = document.getElementById('card_7');
+const card_8_1 = document.getElementById('card_8');
 
 card_1_1.addEventListener('touchstart', touchStart_1);
 card_2_1.addEventListener('touchstart', touchStart_2);

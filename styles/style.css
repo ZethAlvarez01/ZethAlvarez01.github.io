@@ -47,7 +47,7 @@ body {
 }
 
 #card_1{
-    width: 358px;
+    width: 348px;
     height: 400px;
     background-image: url("../img/corazon.png");
     transform: rotate(9deg);
@@ -62,8 +62,8 @@ body {
 }
 
 #card_2{
-    width: 245px;
-    height: 321px;
+    width: 265px;
+    height: 346px;
     background-image: url("../img/casa.jpg");
     transform: rotate(-10deg);
     background-size: contain;
@@ -102,8 +102,8 @@ video{
 }
 
 #card_4{
-    width: 230px;
-    height: 321px;
+    width: 270px;
+    height: 373px;
     background-image: url("../img/fami.jpeg");
     transform: rotate(-25deg);
     background-size: contain;
@@ -164,8 +164,8 @@ video{
 
 
 #card_8{
-    width: 170px;
-    height: 290px;
+    width: 210px;
+    height: 360px;
     background-image: url("/img/pelir.jpeg");
     transform: rotate(-10deg);
     background-size: contain;
