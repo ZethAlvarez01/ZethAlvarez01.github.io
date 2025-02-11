@@ -3,7 +3,9 @@
 
 h1{
     font-family: "Love Ya Like A Sister", serif;
-    font-size: 40px;
+    font-size: 45px;
+    text-align: center; 
+    padding: 0;
 }
 
 body {
@@ -17,8 +19,55 @@ body {
     place-items: center;
 }
 
-.textooo{
-    
+.botones{
+    display: flex;
+}
+
+.boton{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+    font-family: "Love Ya Like A Sister", serif;
+    width: 100px;
+    height: 47px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cartaa{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 10px solid #f2f2f2;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.336);
+}
+
+.cartaa p{
+    font-family: "Love Ya Like A Sister", serif;
+}
+
+.kitty{
+    display: none;    
+    width: 50vw;
+}
+
+.si{
+    background-color: #0ea500;
+    transition: 0.3s
+}
+
+.no{
+    background-color: #d60000;
+    transition: 0.3s
+}
+
+.si:hover{
+    background-color: #086400;
+}
+
+.no:hover{
+    background-color: #750000;
 }
 
 
@@ -187,3 +236,5 @@ video{
     cursor: pointer;
     position: fixed;
 }
+
+

@@ -248,3 +248,15 @@ function touchEnd(){
 
 
 
+function aparecer(){
+
+    
+    let imagen = document.getElementById('imagen_kitty')
+    let text = document.getElementsByClassName('texto_aparecer')
+
+    text[0].style.display = 'none'
+    text[1].style.display = 'none'
+
+
+    imagen.style.display = 'block'
+}
