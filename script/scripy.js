@@ -247,16 +247,68 @@ function touchEnd(){
 };
 
 
-
 function aparecer(){
-
     
     let imagen = document.getElementById('imagen_kitty')
+    let carta = document.getElementById('carta_kitty')
+    let centar = document.getElementById('centar')
     let text = document.getElementsByClassName('texto_aparecer')
+
+    let card_1 = document.getElementById('card_1')
+    let card_2 = document.getElementById('card_2')
+    let card_3 = document.getElementById('card_3')
+    let card_4 = document.getElementById('card_4')
+    let card_5 = document.getElementById('card_5')
+    let card_6 = document.getElementById('card_6')
+    let card_7 = document.getElementById('card_7')
+    let card_8 = document.getElementById('card_8')
+
+    card_1.style.display = 'none'
+    card_2.style.display = 'none'
+    card_3.style.display = 'none'
+    card_4.style.display = 'none'
+    card_5.style.display = 'none'
+    card_6.style.display = 'none'
+    card_7.style.display = 'none'
+    card_8.style.display = 'none'
 
     text[0].style.display = 'none'
     text[1].style.display = 'none'
 
 
     imagen.style.display = 'block'
+    carta.style.display = 'block'
+    centar.style.display = 'flex'
 }
+
+
+function boton_no(){
+
+    nos = ['NO :(']
+
+    let si = document.getElementById('si')
+    let sip = document.getElementById('psi')
+    let nop = document.getElementById('pno')
+    let no = document.getElementById('no')
+
+    var positionInfo = si.getBoundingClientRect();
+    var height = positionInfo.height;
+    var width = positionInfo.width;
+
+
+    var positionInfo = no.getBoundingClientRect();
+    var height_no = positionInfo.height;
+    var width_no = positionInfo.width;
+
+    si.style.width = (width + 10) + 'px'
+    si.style.height = (height + 10) + 'px'
+    sip.style.fontSize = (parseFloat(window.getComputedStyle(document.getElementById("psi")).fontSize) + 5) + 'px';
+
+    no.style.width = (width_no - 6) + 'px'
+    no.style.height = (height_no - 6) + 'px'
+    nop.style.fontSize = (parseFloat(window.getComputedStyle(document.getElementById("pno")).fontSize) - 2) + 'px';
+
+
+    nop.innerHTML = nos[0]
+}
+
