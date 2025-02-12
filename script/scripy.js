@@ -34,6 +34,15 @@ function mouseDown_1(e){
     startX_1 = e.clientX
     startY_1 = e.clientY
 
+    card_1.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_3.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('mousemove', mouseMove_1)
     document.addEventListener('mouseup', mouseUp_1)
 }
@@ -41,6 +50,15 @@ function mouseDown_1(e){
 function mouseDown_2(e){
     startX_2 = e.clientX
     startY_2 = e.clientY
+
+    card_2.style.zIndex = 999
+    card_1.style.zIndex = 998
+    card_3.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('mousemove', mouseMove_2)
     document.addEventListener('mouseup', mouseUp_2)
@@ -50,6 +68,15 @@ function mouseDown_3(e){
     startX_3 = e.clientX
     startY_3 = e.clientY
 
+    card_3.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('mousemove', mouseMove_3)
     document.addEventListener('mouseup', mouseUp_3)
 }
@@ -57,6 +84,15 @@ function mouseDown_3(e){
 function mouseDown_4(e){
     startX_4 = e.clientX
     startY_4 = e.clientY
+
+    card_4.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_3.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('mousemove', mouseMove_4)
     document.addEventListener('mouseup', mouseUp_4)
@@ -66,6 +102,15 @@ function mouseDown_5(e){
     startX_5 = e.clientX
     startY_5 = e.clientY
 
+    card_5.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('mousemove', mouseMove_5)
     document.addEventListener('mouseup', mouseUp_5)
 }
@@ -73,6 +118,15 @@ function mouseDown_5(e){
 function mouseDown_6(e){
     startX_6 = e.clientX
     startY_6 = e.clientY
+
+    card_6.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_3.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('mousemove', mouseMove_6)
     document.addEventListener('mouseup', mouseUp_6)
@@ -82,6 +136,15 @@ function mouseDown_7(e){
     startX_7 = e.clientX
     startY_7 = e.clientY
 
+    card_7.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_5.style.zIndex = 994
+    card_6.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('mousemove', mouseMove_7)
     document.addEventListener('mouseup', mouseUp_7)
 }
@@ -89,6 +152,15 @@ function mouseDown_7(e){
 function mouseDown_8(e){
     startX_8 = e.clientX
     startY_8 = e.clientY
+
+    card_8.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_5.style.zIndex = 991
 
     document.addEventListener('mousemove', mouseMove_8)
     document.addEventListener('mouseup', mouseUp_8)
@@ -184,8 +256,6 @@ function mouseMove_8(e){
     card_8.style.top = (card_8.offsetTop - newY_8) + 'px'
     card_8.style.left = (card_8.offsetLeft - newX_8) + 'px'
 }
-
-
 
 
 function mouseUp_1(e){

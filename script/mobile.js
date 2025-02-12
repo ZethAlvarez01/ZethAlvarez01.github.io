@@ -30,6 +30,15 @@ function touchStart_1(e){
     startX_1_1 = e.touches[0].clientX;
     startY_1_1 = e.touches[0].clientY;
 
+    card_1.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_3.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('touchmove', touchMove_1);
     document.addEventListener('touchend', touchEnd_1);
 }
@@ -37,6 +46,15 @@ function touchStart_1(e){
 function touchStart_2(e){
     startX_2_1 = e.touches[0].clientX;
     startY_2_1 = e.touches[0].clientY;
+
+    card_2.style.zIndex = 999
+    card_1.style.zIndex = 998
+    card_3.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('touchmove', touchMove_2);
     document.addEventListener('touchend', touchEnd_2);
@@ -46,6 +64,15 @@ function touchStart_3(e){
     startX_3_1 = e.touches[0].clientX;
     startY_3_1 = e.touches[0].clientY;
 
+    card_3.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('touchmove', touchMove_3);
     document.addEventListener('touchend', touchEnd_3);
 }
@@ -53,6 +80,15 @@ function touchStart_3(e){
 function touchStart_4(e){
     startX_4_1 = e.touches[0].clientX;
     startY_4_1 = e.touches[0].clientY;
+
+    card_4.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_3.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('touchmove', touchMove_4);
     document.addEventListener('touchend', touchEnd_4);
@@ -62,6 +98,15 @@ function touchStart_5(e){
     startX_5_1 = e.touches[0].clientX;
     startY_5_1 = e.touches[0].clientY;
 
+    card_5.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
+
     document.addEventListener('touchmove', touchMove_5);
     document.addEventListener('touchend', touchEnd_5);
 }
@@ -69,6 +114,15 @@ function touchStart_5(e){
 function touchStart_6(e){
     startX_6_1 = e.touches[0].clientX;
     startY_6_1 = e.touches[0].clientY;
+
+    card_6.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_5.style.zIndex = 995
+    card_3.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_8.style.zIndex = 991
 
     document.addEventListener('touchmove', touchMove_6);
     document.addEventListener('touchend', touchEnd_6);
@@ -78,6 +132,16 @@ function touchStart_7(e){
     startX_7_1 = e.touches[0].clientX;
     startY_7_1 = e.touches[0].clientY;
 
+    card_7.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_5.style.zIndex = 994
+    card_6.style.zIndex = 993
+    card_8.style.zIndex = 991
+
+
     document.addEventListener('touchmove', touchMove_7);
     document.addEventListener('touchend', touchEnd_7);
 }
@@ -85,6 +149,15 @@ function touchStart_7(e){
 function touchStart_8(e){
     startX_8_1 = e.touches[0].clientX;
     startY_8_1 = e.touches[0].clientY;
+
+    card_8.style.zIndex = 999
+    card_2.style.zIndex = 998
+    card_1.style.zIndex = 997
+    card_4.style.zIndex = 996
+    card_3.style.zIndex = 995
+    card_6.style.zIndex = 994
+    card_7.style.zIndex = 993
+    card_5.style.zIndex = 991
 
     document.addEventListener('touchmove', touchMove_8);
     document.addEventListener('touchend', touchEnd_8);
